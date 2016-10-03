@@ -18,35 +18,39 @@ public class Parcial1 {
      */
     public static void main(String[] args) {
         
-    int numeroSw;
-    String sNumeroSw;
-    
-    sNumeroSw=JOptionPane.showInputDialog("MENU\n1-Perimetro del triangulo\n2-"
-            + "Calcular superficie del triangulo\n3-Calcular perimetro del cuadrado"
-            + "\n4-Calcular superficie del cuadrado\n5-SALIR");
-    numeroSw=Integer.parseInt(sNumeroSw);
-    
+        int numeroSw;
+        String sNumeroSw;
+
+        sNumeroSw = JOptionPane.showInputDialog("MENU\n1 - Calcular perimetro del triangulo\n2 - "
+                + "Calcular superficie del triangulo\n3 - Calcular perimetro del cuadrado"
+                + "\n4 - Calcular superficie del cuadrado\n5 - SALIR");
+        numeroSw = Integer.parseInt(sNumeroSw);
+
         switch (numeroSw) {
             case 1:
-                double lado1;
-                double lado2;
-                double lado3;
-                           
+                double lado;
+                double acumulador = 0;
+                String cadenaLado;
+
+                for (int i = 1; i <= 3; i++) {
+                    cadenaLado = JOptionPane.showInputDialog(null, "Ingrese el valor de lado " + i);
+                    lado = Double.parseDouble(cadenaLado);
+                    acumulador = acumulador + lado;
+                }
+                JOptionPane.showMessageDialog(null, "El perímetro del triángulo es " + acumulador);
                 break;
             case 2:
-                System.out.println("hola");
                 break;
             case 3:
-               
                 break;
             case 4:
                 break;
             case 5:
                 break;
-                
+
             default:
-                System.out.println("opcion incorrecta");
+                JOptionPane.showMessageDialog(null, "Opción incorrecta, intente nuevamente");
         }
     }
-    
+
 }
