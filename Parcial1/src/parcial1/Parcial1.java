@@ -34,7 +34,7 @@ public class Parcial1 {
                            
                 break;
             case 2:
-                
+                System.out.println("hola");
                 break;
             case 3:
                 System.out.println("Puto");
