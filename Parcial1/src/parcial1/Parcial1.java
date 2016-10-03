@@ -21,9 +21,9 @@ public class Parcial1 {
     int numeroSw;
     String sNumeroSw;
     
-    sNumeroSw=JOptionPane.showInputDialog("MENU\n1-Perimetro del triangulo\n2-"
-            + "Calcular superficie del triangulo\n3-Calcular perimetro del cuadrado"
-            + "\n4-Calcular superficie del cuadrado\n5-SALIR");
+    sNumeroSw=JOptionPane.showInputDialog("MENU\n1 - Calcular perimetro del triangulo\n2 - "
+            + "Calcular superficie del triangulo\n3 - Calcular perimetro del cuadrado"
+            + "\n4 - Calcular superficie del cuadrado\n5 - SALIR");
     numeroSw=Integer.parseInt(sNumeroSw);
     
         switch (numeroSw) {
@@ -37,7 +37,7 @@ public class Parcial1 {
                 System.out.println("hola");
                 break;
             case 3:
-               
+                System.out.println("Puto");
                 break;
             case 4:
                 break;
