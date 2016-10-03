@@ -34,7 +34,7 @@ public class Parcial1 {
                            
                 break;
             case 2:
-                System.out.println("LA CONCHA DE TU MADRE ALL BOYS");
+                
                 break;
             case 3:
                
