@@ -34,10 +34,10 @@ public class Parcial1 {
                            
                 break;
             case 2:
-                aegkagjoajaoiaroiñ
+                
                 break;
             case 3:
-               
+                System.out.println("Puto");
                 break;
             case 4:
                 break;
