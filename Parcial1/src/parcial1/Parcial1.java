@@ -17,8 +17,10 @@ public class Parcial1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        double lado;
+        double acumulador = 0;
         int numeroSw;
+        String cadenaLado;        
         String sNumeroSw;
 
         sNumeroSw = JOptionPane.showInputDialog("MENU\n1 - Calcular perimetro del triangulo\n2 - "
@@ -28,10 +30,6 @@ public class Parcial1 {
 
         switch (numeroSw) {
             case 1:
-                double lado;
-                double acumulador = 0;
-                String cadenaLado;
-
                 for (int i = 1; i <= 3; i++) {
                     cadenaLado = JOptionPane.showInputDialog(null, "Ingrese el valor de lado " + i);
                     lado = Double.parseDouble(cadenaLado);
@@ -42,7 +40,7 @@ public class Parcial1 {
             case 2:
                 break;
             case 3:
-                System.out.println("De la concha de tu hermana");
+                
                 break;
             case 4:
                 break;
