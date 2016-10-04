@@ -42,6 +42,7 @@ public class Parcial1 {
             case 2:
                 break;
             case 3:
+                System.out.println("De la concha de tu hermana");
                 break;
             case 4:
                 break;
@@ -49,7 +50,7 @@ public class Parcial1 {
                 break;
 
             default:
-                JOptionPane.showMessageDialog(null, "Opción incorrecta, intente nuevamente");
+                JOptionPane.showMessageDialog(null, "Opción incorrecta");
         }
     }
 
